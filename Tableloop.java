@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 public class Tableloop {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
@@ -12,8 +12,10 @@ public class Tableloop {
             i++;
 
         }
+         sc.close();
 
         }
+       
         
     }
 
