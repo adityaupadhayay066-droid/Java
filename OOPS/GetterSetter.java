@@ -2,7 +2,7 @@ class Employee{
    public  String name;
     private int  EmpId;
     private double salary;
-    String Dept;
+    public String Dept;
 
     public void setEmpId(int e){
         EmpId = e;
@@ -22,12 +22,12 @@ public void setsalary(double s){
 public double getsalary(){
     return salary;
 }
-// public void setDept(String d){
-//     Dept = d;
-// }
-// public String getDept(){
-//     return Dept;
-// }
+public void setDept(String d){
+    Dept = d;
+}
+public String getDept(){
+    return Dept;
+}
 }
 
 public class GetterSetter {
@@ -36,11 +36,11 @@ public class GetterSetter {
         emp.setEmpId(101);
         emp.setname("Aditya Upadhayay");
         emp.setsalary(800000);
-        emp.Dept("Ai and ML ");
+        emp.setDept("Ai and ML ");
         System.out.println("Employee id is : "+emp.getEmpId());
          System.out.println("Employee name is  : "+emp.getname());
           System.out.println("Employee salary is : "+emp.getsalary());
-           System.out.println("Employee Department is  : "+emp.Dept());
+           System.out.println("Employee Department is  : "+emp.getDept());
     }
     
 }
