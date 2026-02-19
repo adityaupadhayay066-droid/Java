@@ -1,3 +1,9 @@
+/*Polymprphism mean one method name can have many formms(behaviours)
+Types of Polymorphism 
+Compile Time 
+Run time  */
+
+
 class Student{
     void marks(int a){
         System.out.println("you failed in C++");

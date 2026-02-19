@@ -16,6 +16,9 @@ class swap{
         // sc.close();
 //     }
 // }
+
+
+
 // Swapping the number wihtout using third varible using function 
 public static void swapping(int a, int b){
     a = a+b;
