@@ -19,12 +19,13 @@ public class Strong {
             sum = sum+factorial(d);
             a=a/10;
         }
-        if(c==a){
+        if(c==sum){
             System.out.println("Enter number is strong");
         }
         else{
             System.out.println("Enter number is not strong ");
         }
+        sc.close();
 
 
         
