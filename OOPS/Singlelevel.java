@@ -1,13 +1,15 @@
-class vehicle {   // Parent class
+// In single level inheritace one parent class and one base class 
+
+class vehicle{  // Parent class
     void distance(){
         System.out.println("Vehicle can travel at a distance");
     }
-
+    
 }
 public class Singlelevel extends vehicle{
     public static void main(String[] args) {
-        Singlelevel S = new Singlelevel();
-        S.distance();
+        Singlelevel s = new Singlelevel();
+        s.distance();
         
     }
 }
