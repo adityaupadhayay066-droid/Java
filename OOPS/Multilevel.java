@@ -1,4 +1,4 @@
-// In Multilevel child  
+// In Multilevel inheritacne Eat child class is derived from Human parent class and Working class is derived the
 
 class Human {  // parent class
     void human(){

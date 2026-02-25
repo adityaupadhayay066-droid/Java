@@ -7,7 +7,7 @@ class Furniture{
     } 
 }
 class Chair extends Furniture{
-    void Purpose(){
+    void purpose(){
         System.out.println("Chair is used for seating");
     }
 }
@@ -26,7 +26,7 @@ public class Hierarchical {
          System.out.println("----------Chair class object initialize-----------");
         Chair c = new Chair();
         c.material();
-        c.Purpose();
+        c.purpose();
         System.out.println();
          System.out.println("---------Table class object initialize------------");
         Table t = new Table();
