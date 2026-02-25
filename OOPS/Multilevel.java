@@ -1,4 +1,4 @@
-// Multilevel inheritacne has one base 
+// In Multilevel child  
 
 class Human {  // parent class
     void human(){
