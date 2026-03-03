@@ -19,7 +19,8 @@ class Table extends Furniture{
 
 public class Hierarchical {
     public static void main(String[] args) {
-        System.out.println("-------Furniture class object initialize----------");
+        System.out.println("-------Furniture class object initialize----------");  /*If I do not create its object, 
+        it will still work because of Furniture class property inherit in  chair class*/
         Furniture f = new Furniture();
         f.material();
         System.out.println();
