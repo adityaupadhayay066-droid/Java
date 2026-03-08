@@ -1,11 +1,11 @@
-abstract class Vechile{
+abstract class Vehicle{
     abstract void speed();
     abstract  void mileage();
     void wheels(){
         System.out.println("It cointain 4 wheels");
     } 
 }
-class BMW extends  Vechile{
+class BMW extends  Vehicle{
     void speed(){
         System.out.println("BMW spped is 100 km/hr");
     }
@@ -14,10 +14,10 @@ class BMW extends  Vechile{
     }
 }
 
-public class Aditya {
+public class Vechile_Encapsulation {
     public static void main(String[] args) {
         System.out.println("----------XX-------------");
-        Vechile b = new BMW();
+        Vehicle b = new BMW();
         b.wheels();
         b.speed();
         b.mileage();
