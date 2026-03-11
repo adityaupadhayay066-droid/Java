@@ -1,8 +1,6 @@
 interface Animal{
     void animal_name();
     void eat();
-    
-
 }
 class Show implements Animal{
     public void animal_name(){
@@ -14,10 +12,9 @@ class Show implements Animal{
 }
 public class Interface {
     public static void main(String[] args) {
-        Animal a = new Show();
-            a.animal_name();
-            a.eat();
-        
+        Show s = new Show();
+            s.animal_name();
+            s.eat();    
     }
     
 }
