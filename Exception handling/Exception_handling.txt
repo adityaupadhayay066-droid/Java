@@ -1,0 +1,50 @@
+Exception Handling - It is a machenism in java that handle run time error so that your programm dont crash it run smoothly 
+Important keyword of Exception Handling
+1. try
+Code that may cause exception
+2. catch
+Handles the exception
+3. finally
+Always executes (whether exception occurs or not)
+4. throw
+Used to manually throw an exception
+5. throws
+Declares exceptions in method
+
+basic synatx 
+try{
+    the types of code that might show error at runtime 
+--Examples
+Number divide by zero 
+Opening a file that doesn’t exist
+}
+catch (Exception e){
+    what it show when an error happen 
+continue programm
+}
+finally{
+    // it Always run not matter what the code showing like error or something
+}
+-----------------------------------
+            Error
+----------------------------------
+Error is a mistake  that cause by system problem 
+or 
+Logic error in code 
+--------------------------------------------
+            Exception in java
+---------------------------------------------
+Happens during programme executions 
+Caused by coding mistake 
+fix using try and catch
+-------------------------
+Examples 
+-------------------------
+Divide by  Zero 
+invalid input
+
+
+try - jo error humma show kara kar exceution stop karana hain 
+process
+
+catch - jo error runtime pe show karna hain 
