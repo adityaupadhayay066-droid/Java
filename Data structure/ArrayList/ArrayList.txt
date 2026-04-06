@@ -1,0 +1,8 @@
+Array size is fixed 
+Array is store primitive data types only 
+eg - int , float 
+Array execution is faster 
+
+ArrayList is size is Dynamic 
+ArrayList store object type only 
+Eg - integer, Double 
