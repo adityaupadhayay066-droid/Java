@@ -1,6 +1,5 @@
  class FloydsTriangle {
     public static void main(String[] args) {
-
         int rows = 5;   // number of rows
         int num = 1;    // starting number
 
